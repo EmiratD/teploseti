@@ -1,6 +1,121 @@
-.teploset {
+.slider {
     width: 1366px;
     height: 568px;
     background-image: url(../../assets/svg/section-teploset.svg);
-    color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 0 32px;
+}
+.slider::after{
+    content: url(../../assets/png/masters.png);
+    position: absolute;
+    width: 644.05px;
+    height: 429.42px;
+    top: 137.58px;
+    left: 594.09px;
+    z-index: 0;
+
+}
+
+.slider-action {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding-bottom: 128px;
+}
+.slider-action-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    margin-top: 47px;   
+}
+
+
+
+.slider-action__conteiner {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    
+}
+.conteiner-info {
+    width: 343px;
+    height: 176px;
+    padding-left: 5px;
+}
+.conteiner-info__teploset {
+    width: 343px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.conteiner-info__text{
+    width: 336px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--primary-color); 
+    margin-bottom: 52px;
+}
+.conteiner-info__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 39px 10px;
+    gap: 8px;
+    width: 198px;
+    height: 40px;
+    border: 1px solid var(--primary-color); 
+}
+.conteiner-info__btn p{
+    width: 118px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-color)
+}
+
+.slider-panel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    padding-bottom: 29px;
+}
+
+.slider-indecator {
+    width: 136px;
+    height: 8px;
+    z-index: 1;
+    display: flex;
+    gap: 24px;
+    padding-top: 255px;
+}
+.slider-indecator__position {
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border: 2px solid rgba(184, 184, 184, 0.45);
+    border-radius: 50%;
+}
+.slider-indecator__position:hover{
+    border: 2px solid rgba(50, 40, 240, 0.45);
+}
+.slider-indecator__position:focus{
+    background: rgba(50, 40, 240, 0.45);
 }

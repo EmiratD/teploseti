@@ -70,14 +70,14 @@
     margin-left: 186px;
     padding-left: 25px;
 }
-.lang-btn{
-    width: 24px;
-    height: 18px;
+.lang-btn {
+    width: 30px;
+    height: 24px;
 }
-.lang-btn__img{
+/* .lang-btn__img {
     width: 100%;
     height: 100%;
-}
+} */
 .arrow::after{
     content: url(../../assets/svg/arrow-bottom.svg);
     margin-left: 7.08px;
