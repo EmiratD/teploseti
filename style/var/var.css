@@ -2,7 +2,9 @@
   --primary-color: #FFFFFF;
   --logo-color: #0F2A59;
   --text-color: #181818;
-  --inbecator-color: rgb(208, 208, 208);
+  --indecator-color: rgb(208, 208, 208);
+  --hover-color: rgb(255, 136, 0);
+  -card-info: #F8F8F8;
 }
 
   

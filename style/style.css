@@ -2,6 +2,7 @@
 @import url(./none-style/none.css);
 @import url(./elements-style/header.css);
 @import url(./elements-style/section-teploset.css);
+@import url(./elements-style/dopnav.css);
 .wrapper{
     width: 100%;
     height: 100%;
@@ -10,3 +11,4 @@
     justify-content: center;
     flex-direction: column;
 }
+
