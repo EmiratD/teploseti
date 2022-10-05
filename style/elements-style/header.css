@@ -1,0 +1,84 @@
+@import url(../var/var.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+.header {
+    width: 1366px;
+    height: 64px;
+    background: var(--primary-color);
+    box-shadow: 6px 6px 30px -3px rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-nav {
+    width: 1165px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 24px;
+}
+.logo {
+    width: 70px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--logo-color);
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.menu {
+    width: 351px;
+    display: flex;
+    gap: 16.3px;
+    margin: 0 0 0 112px
+}
+.menu-text {
+    color: var(--text-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.line::after{
+    content: '';
+    width: 20px;
+    border: 1px solid #E8E8E8;
+    background: #E8E8E8;
+    transform: rotate(90deg);
+    margin-left: 23.08px;
+}
+.menu-item-one {
+    width: 56px;
+}
+.menu-item__two {
+    width: 132.5px;
+}
+.menu-item__three {
+    width: 80px; 
+}
+.lang {
+    width: 135px;
+    height: 26px;
+    line-height: 26px;
+    display: flex;
+    margin-left: 186px;
+    padding-left: 25px;
+}
+.lang-btn{
+    width: 24px;
+    height: 18px;
+}
+.lang-btn__img{
+    width: 100%;
+    height: 100%;
+}
+.arrow::after{
+    content: url(../../assets/svg/arrow-bottom.svg);
+    margin-left: 7.08px;
+} 
