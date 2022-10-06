@@ -78,10 +78,6 @@
     width: 198px;
     height: 40px;
     border: 1px solid var(--primary-color); 
-}
-.conteiner-info__btn p{
-    width: 118px;
-    height: 21px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;

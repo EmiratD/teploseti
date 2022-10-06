@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <wrapper class="wrapper">
         <header class="header">
             <nav class="header-nav">
                 <a class="logo">Лого</a>
@@ -28,15 +27,15 @@
         <main>
             <section class="slider">
                 <div class="slider-action">
-                    <button class="slider-action-btn"><img src="./assets/svg/Arrow - Right 4.svg" alt="<"></button>
+                    <button class="slider-action-btn"><img src="./assets/svg/Arrow-Right.svg" alt="<"></button>
                     <div class="slider-action__conteiner">
                         <div class="conteiner-info">
                             <h2 class="conteiner-info__teploset">Теплосети</h2>
                             <p class="conteiner-info__text text">Тепло в каждый уголок нашей страны</p>
-                            <button class="conteiner-info__btn"><p>Подробнее о нас</p></button>
+                            <button class="conteiner-info__btn">Подробнее о нас</button>
                         </div>
                     </div>
-                    <button class="slider-action-btn"><img src="./assets/svg/Arrow - left.svg" alt=">"></button>
+                    <button class="slider-action-btn"><img src="./assets/svg/Arrow-left.svg" alt=">"></button>
                 </div>
                 <div class="slider-panel">
                     <ul class="slider-indecator">
@@ -53,24 +52,24 @@
                 <h2 class="dopnav-h2">Дополнительная информация</h2>
                 <nav class="dopnav-info">
                     <ul class="dopnav-list">
-                        <il class="dopnav-list__card icon-work" tabindex="0">
+                        <li class="dopnav-list__card icon-work" tabindex="0">
                             <a href="#">
                                 <p class="dopnav-list__card-bold-work">Личный кабинет</p>
                                 <p class="dopnav-list__card-text">На стадии разработки</p>
                             </a>
-                        </il>
-                        <il class="dopnav-list__card icon-setting" tabindex="0">
+                        </li>
+                        <li class="dopnav-list__card icon-setting" tabindex="0">
                             <a href="#">
                                 <p class="dopnav-list__card-bold">Как подключиться?</p>
                                 <p class="dopnav-list__card-text">Подключение объектов к системе Централизованного теплоснабжения</p>
                             </a>
-                        </il>
-                        <il class="dopnav-list__card icon-tick" tabindex="0">
+                        </li>
+                        <li class="dopnav-list__card icon-tick" tabindex="0">
                             <a href="#">
                                 <p class="dopnav-list__card-bold">Тарифы и калькуляторы</p>
                                 <p class="dopnav-list__card-text">Действующие тарифы на услуги Кыргызтеплоэнерго</p>
                             </a>
-                        </il>
+                        </li>
                     </ul>
                 </nav>
             </section>
@@ -107,16 +106,46 @@
                </div>
             </section>
 
-            <section class="start">
-                <h2>Как мы начинали?</h2>
+            <section class="company start">
+                <h2 style="display: none">Как мы начинали?</h2>
+                <div class="company-card">
+                    <div class="company-info">
+                        <h3 class="company-info__title">Как мы начинали?</h3>
+                        <p class="company-info__text">
+                            Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований. 
+                            <br>Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, а также вся биосфера. Предмет изучения —<br>организация и функционирование таких систем.<br>Главная задача прикладной экологии — 
+                        </p>
+                        <button class="company-info__btn">Подробнее о нас</button>
+                    </div>
+                </div>
             </section>
 
-            <section class="future">
-                <h2>Наша дальнейшая цель и будущее</h2>
+            <section class="company future">
+                <h2 style="display: none">Наша дальнейшая цель и будущее</h2>
+                <div class="company-card company-card__left">
+                    <div class="company-info company-info__left">
+                        <h2 class="company-info__title company-info__title-left">Наша дальнейшая цель и будущее</h2>
+                        <p class="company-info__text">
+                            Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований. 
+                            <br>Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, а также вся биосфера. Предмет изучения —<br>организация и функционирование таких систем.<br>Главная задача прикладной экологии — 
+                        </p>
+                        <button class="company-info__btn">Подробнее о нас</button>
+                    </div>
+                </div>
             </section>
 
-            <section class="company">
-                <h2>Кто мы?</h2>
+            <section class="company about">
+                <h2 style="display: none">Кто мы?</h2>
+                <div class="company-card">
+                    <div class="company-info">
+                        <h3 class="company-info__title">Кто</h3>
+                        <p class="company-info__text">
+                            Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований. 
+                            <br>Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, а также вся биосфера. Предмет изучения —<br>организация и функционирование таких систем.<br>Главная задача прикладной экологии — 
+                        </p>
+                        <button class="company-info__btn">Подробнее о нас</button>
+                    </div>
+                </div>
             </section>
         </main>
 
@@ -137,6 +166,5 @@
             </nav>
             <img src="/assets/png/" alt="map-position" class="map-position">
         </footer>
-    </wrapper>
 </body>
 </html>
