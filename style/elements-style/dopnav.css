@@ -29,7 +29,7 @@
     border-left: solid 5px var(--logo-color);
 }
 .dopnav-list__card:active{
-    border-left: solid 5px var(--hover-color);
+    border-left: solid 5px var(--active -color);
 }
 
 .icon-work{
