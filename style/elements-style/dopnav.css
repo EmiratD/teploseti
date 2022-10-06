@@ -37,6 +37,7 @@
 }
 .icon-setting{
     background-image: url(../../assets/svg/Setting.svg);
+    margin-left: 1.5px;
 }
 .icon-tick{
     background-image: url(../../assets/svg/Tick.svg);

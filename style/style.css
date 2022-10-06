@@ -3,6 +3,7 @@
 @import url(./elements-style/header.css);
 @import url(./elements-style/section-teploset.css);
 @import url(./elements-style/dopnav.css);
+@import url(./elements-style/news.css);
 .wrapper{
     width: 100%;
     height: 100%;
