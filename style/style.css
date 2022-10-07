@@ -5,13 +5,12 @@
 @import url(./elements-style/dopnav.css);
 @import url(./elements-style/slider.css);
 @import url(./elements-style/news.css);
-@import url(./elements-style/start.css);
+@import url(./elements-style/commpony.css);
 @import url(./elements-style/footer.css);
 
 .wrapper{
     max-width: 1366px;
     margin: 0 auto;
-    background-color: brown;
 }
 @media (max-width: 1280px){
     .wrapper{

@@ -11,8 +11,8 @@
     padding: 48px 64px;
 }
 .about {
-    background: no-repeat url(../../assets/png/el-master.png);
-    padding: 47px 85px 68px;
+    background: no-repeat url(../../assets/png/el-master.png) left 0;
+    padding: 47px 45px 68px;
 }
 
 .company-card {
@@ -20,6 +20,9 @@
     max-height: 365px;
     display: flex;
     justify-content: end;
+}
+.about .company-card {
+    max-width: 1080px;
 }
 .company-card__left {
     justify-content: start;
