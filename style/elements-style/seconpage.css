@@ -13,17 +13,19 @@ body{
 }
 
 .pagetwo-box {
-    width: 868px;
-    height: 670px;
+    max-width: 868px;
+    max-height: 670px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
     margin: 32px 399px 93px 99px;
+    overflow: hidden;
+    text-emphasis: clip;
 }
 .text-h1 {
-    width: 323px;
+    max-width: 323px;
     height: 45px;
     font-family: 'Inter';
     font-style: normal;
@@ -34,8 +36,8 @@ body{
     margin-top: 7.5px;
 }
 .text-info {
-    width: 868px;
-    height: 609px;
+    max-width: 868px;
+    max-height: 609px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
