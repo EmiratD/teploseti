@@ -13,7 +13,7 @@
 .slider::after{
     content: url(../../assets/png/masters.png);
     position: absolute;
-    width: 644.05px;
+    max-width: 644.05px;
     height: 429.42px;
     top: 137.58px;
     left: 594.09px;

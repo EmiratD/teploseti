@@ -1,5 +1,4 @@
 .company{
-    width: 1168px;
     height: 480px;
     margin: 0 99px 48px;
     padding: 58px 64px;
@@ -8,7 +7,7 @@
     background: no-repeat url(../../assets/png/start-bg.png);
 }
 .future {
-    background: no-repeat url(../../assets/png/smoke.png) right 0px;
+    background: no-repeat url(../../assets/png/smoke.png) right 0;
     padding: 48px 64px;
 }
 .about {
@@ -17,8 +16,8 @@
 }
 
 .company-card {
-    width: 1040px;
-    height: 365px;
+    max-width: 1040px;
+    max-height: 365px;
     display: flex;
     justify-content: end;
 }
@@ -27,7 +26,7 @@
 }
 
 .company-info {
-    width: 540px;
+    max-width: 540px;
     height: 365px;
     padding: 48px 48px 73px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), rgba(255, 255, 255, 0.8);
@@ -39,7 +38,7 @@
 }
 
 .company-info__title {
-    width: 259px;
+    max-width: 259px;
     height: 34px;
     font-family: 'Inter';
     font-style: normal;
@@ -49,12 +48,12 @@
     color: var(--text-color)
 }
 .company-info__title-left {
-    width: 335px;
+    max-width: 335px;
     height: 68px;    
 }
 .company-info__text  {
-    width: 444px;
-    height: 140px;
+    max-width: 444px;
+    max-height: 140px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -67,7 +66,7 @@
     flex-grow: 0;
 }
 .p-text {
-    width: 444px;
+    max-width: 444px;
     height: 140px;
     font-family: 'Inter';
     font-style: normal;
@@ -81,7 +80,7 @@
     flex-grow: 0;
 }
 .company-info__btn {
-    width: 260px;
+    max-width: 260px;
     height: 40px;
     border: 1px solid var(--logo-color);
     display: flex;
@@ -100,4 +99,61 @@
 }
 .company-info__btn:active{
     background: var(--logo-color);
+}
+@media screen and (max-width: 1200px) {
+    .company{
+        margin: 0;
+    }
+}
+@media (max-width: 980px){
+    .company-card{
+        width: 300px;
+        height: 150px;
+    }
+    .company-info__title{
+        height: 50px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .company-info__text{
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .company-info__btn{
+        padding: 5px;
+    }
+}
+@media (max-width: 600px){
+    .company{
+        width: 450px;
+        margin: 20px 20px 40px;
+        height: 250px;
+        padding: 20px;
+    }
+    .company-info__title{
+        height: 50px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .company-info__text{
+        display: none;
+    }
+    .company-info__btn{
+        padding: 5px 10px;
+    }
+    .company-info{  
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        padding: 10px;
+        height: 120px;
+    }
+    
+}
+@media (max-width: 500px){
+    .company{
+        width: 400px;
+    }
 }
