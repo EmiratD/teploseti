@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url(../style/none-style/none.css);
+@import url(../style/elements-style/header.css);
+@import url(../style/elements-style/footer.css);
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pagetwo-box {
+    width: 868px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    margin: 32px 399px 93px 99px;
+}
+.text-h1 {
+    width: 323px;
+    height: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: var(--text-color);
+    margin-top: 7.5px;
+}
+.text-info {
+    width: 868px;
+    height: 609px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7F8D97;
+}
