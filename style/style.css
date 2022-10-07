@@ -3,16 +3,43 @@
 @import url(./elements-style/header.css);
 @import url(./elements-style/section-teploset.css);
 @import url(./elements-style/dopnav.css);
-@import url(./elements-style/section-teploset.css);
+@import url(./elements-style/slider.css);
 @import url(./elements-style/news.css);
 @import url(./elements-style/start.css);
 @import url(./elements-style/footer.css);
-body{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+@media (max-width: 1280px){
+    .wrapper{
+        max-width: 1160px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .wrapper{
+        max-width: 1060px;
+    }
+}
+@media screen and (max-width: 820px){
+    .wrapper{
+        max-width: 760px;
+    }
+}
+@media screen and (max-width: 760px){
+    .wrapper{
+        max-width: 660px;
+    }
+}
+@media screen and (max-width: 480px){
+    .wrapper{
+        max-width: 440px;
+    }
+}
+@media screen and (max-width: 400){
+    .wrapper{
+        max-width: 360px;
+    }
 }
 

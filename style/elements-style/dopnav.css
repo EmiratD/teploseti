@@ -5,20 +5,21 @@
     justify-content: center;
     align-items: center;
     margin: 32px 99px;
+    box-sizing: content-box;
 }
 .dopnav-h2 {
     display: none;
 }
 .dopnav-info{
-    box-sizing: content-box;
+    width: 100%;
 }
 .dopnav-list {
-    width: 1168px;
+    width: 100%;
     display: flex;
     gap: 33px;
 }
 .dopnav-list__card {
-    width: 366px;
+    max-width: 366px;
     height: 129px;
     display: flex;
     background: #F8F8F8 no-repeat top 12px right 16px;
@@ -27,6 +28,7 @@
 
 .dopnav-list__card:hover{
     border-left: solid 5px var(--logo-color);
+    box-shadow: 6px 6px 30px -3px rgba(0,0,0,0.55);
 }
 .dopnav-list__card:active{
     border-left: solid 5px var(--active -color);
@@ -46,7 +48,7 @@
     margin: 16px ;
 }
 .dopnav-list__card-bold{
-    width: 331px;
+    max-width: 331px;
     height: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -76,4 +78,79 @@
     line-height: 150%;
     color: var(--text-color);
     padding-top: 4px;
+}
+
+@media screen and (max-width: 1280px){
+    .dopnav-list {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .dopnav-list__card{
+        width: 250px;
+    }
+    .dopnav-list__card-text {
+        width: 220px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    .dopnav-list__card{
+        width: 200px;
+        height: 100px;
+    }
+    .dopnav-list__card-bold {
+        width: 250px;
+        font-size: 14px;
+    }
+    .dopnav-list__card-text {
+        width: 170px;
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .dopnav-list__card {
+        width: 310px;
+        height: 129px;
+        display: block;
+        background-image: url(../../assets/svg/Tick.svg);
+        display: flex;
+        background: #F8F8F8 no-repeat top 12px right 16px;
+        border-left: solid 5px var(--indecator-color);
+    }
+    .dopnav-list__card-text {
+        display: block;
+    }
+    .icon-tick{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .dopnav{
+        margin: 32px;
+    }
+    .dopnav-list {
+        display: block;
+    }
+    .dopnav-list__card {
+        display: none;
+    }
+    .icon-tick{
+        width: 450px;
+        display: flex;
+        gap: 20px;
+    }
+    .dopnav-list__card-bold {
+        width: 350px;
+        font-size: 18px;
+    }
+    .dopnav-list__card-text {
+        width: 270px;
+        font-size: 16px;
+    }
 }
