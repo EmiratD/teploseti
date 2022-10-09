@@ -40,4 +40,20 @@
     font-size: 14px;
     line-height: 150%;
     color: #7F8D97;
+    overflow: hidden;
+}
+
+@media screen and (max-width:900px) {
+    .pagetwo-box {
+        margin: 100px;
+    }
+}
+@media screen and (max-width:600px) {
+    .text-h1 {
+        font-size: 22px;
+    }
+    .text-info {
+        height: 350px;
+        overflow: scroll;
+    }
 }
