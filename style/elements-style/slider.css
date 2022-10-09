@@ -34,10 +34,10 @@
     margin-top: 47px;   
 }
 .slider-action-btn:hover{
-    border: 1px solid  var(--start-text-color);
+    box-shadow: 6px 6px 30px -3px var(--start-text-color);
 }
 .slider-action-btn:active{
-    border: 1px solid  var(--logo-color);
+    box-shadow: 6px 6px 30px -3px var(--logo-color);
 }
 
 
