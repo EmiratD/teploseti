@@ -49,12 +49,12 @@
     
 }
 .conteiner-info {
-    width: 343px;
+    max-width: 343px;
     height: 176px;
     padding-left: 5px;
 }
 .conteiner-info__teploset {
-    width: 343px;
+    max-width: 343px;
     height: 42px;
     font-family: 'Inter';
     font-style: normal;
@@ -65,7 +65,7 @@
     margin-bottom: 20px;
 }
 .conteiner-info__text{
-    width: 336px;
+    max-width: 336px;
     height: 21px;
     font-family: 'Inter';
     font-style: normal;
@@ -92,12 +92,10 @@
     color: var(--primary-color)
 }
 .conteiner-info__btn:hover{
-    border: 1px solid  var(--logo-color);
-    color: var(--logo-color)
+    box-shadow: 6px 6px 30px -3px var(--start-text-color);
 }
 .conteiner-info__btn:active{
-    border: 1px solid  var(--active-color);
-    color: var(--active-color)
+    box-shadow: 6px 6px 30px -3px var(--logo-color);
 }
 
 .slider-panel{
@@ -141,6 +139,9 @@
     }
 }
 @media screen and (max-width: 1000px){
+    .slider{
+        height: 450px;
+    }
     .slider::after{
         left: 200px;
     }

@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 700px){
     .dopnav-list__card {
-        width: 270px;
+        width: 250px;
         height: 129px;
         display: block;
         background-image: url(../../assets/svg/Tick.svg);
@@ -130,7 +130,7 @@
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .dopnav{
         margin: 25px;
     }
@@ -151,6 +151,31 @@
     }
     .dopnav-list__card-text {
         width: 270px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .dopnav{
+        margin: 25px;
+    }
+    .dopnav-list {
+        display: block;
+    }
+    .dopnav-list__card {
+        display: none;
+    }
+    .icon-tick{
+        width: 250px;
+        display: flex;
+        gap: 20px;
+    }
+    .dopnav-list__card-bold {
+        width: 350px;
+        font-size: 18px;
+    }
+    .dopnav-list__card-text {
+        width: 250px;
         font-size: 16px;
     }
 }

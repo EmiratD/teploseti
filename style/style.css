@@ -42,4 +42,9 @@
         max-width: 360px;
     }
 }
+@media screen and (max-width: 300){
+    .wrapper{
+        max-width: 300px;
+    }
+}
 
