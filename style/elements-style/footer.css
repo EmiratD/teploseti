@@ -19,7 +19,7 @@
     font-size: 24px;
     line-height: 29px;
     color: var(--primary-color);
-    margin-bottom: 21px;
+    margin-bottom: 10px;
 }
 .number-list {
     width: 200px;
@@ -28,13 +28,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    margin-bottom: 10px;
 }
 .number-list:after{
-    content: '';
+    content: 'g';
     width: 200px;
     height: 2px;
     background: #262626;
+    color: var(--text-color);
 }
 .number-item{
     margin-bottom: 15px;
@@ -66,12 +66,12 @@
 }
 .media-list {
     width: 200px;
-    height: 150px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
 }
 .media-list:after{
     content: '';
@@ -170,7 +170,7 @@
         font-size: 10px;
     }
     .number-list:after{
-        /* display: none; */
+        display: none;
     }
     .media-list:after{
         display: none;

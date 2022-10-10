@@ -13,6 +13,7 @@
 .about {
     background: no-repeat url(../../assets/png/el-master.png) left 0;
     padding: 47px 45px 68px;
+    margin: 0 99px 82px;
 }
 
 .company-card {
@@ -98,13 +99,13 @@
     line-height: 150%;
     color: var(--logo-color);
 }
-
 .company-info__btn:hover{
     background: var(--start-text-color);
 }
 .company-info__btn:active{
     background: var(--logo-color);
 }
+
 @media screen and (max-width: 1200px) {
     .company{
         margin: 0;
