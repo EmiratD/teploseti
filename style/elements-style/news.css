@@ -53,6 +53,9 @@
 .news-card:hover {
     box-shadow: 0px 5px 5px 5px var(--logo-color);
 }
+.news-card:active {
+    box-shadow: 0px 5px 5px 5px var(--active-color);
+}
 
 .news-card__one {
     width: 568px;
@@ -70,6 +73,9 @@
 }
 .news-card__one:hover {
         box-shadow: 0px 5px 5px 5px var(--logo-color);
+}
+.news-card__one:active {
+        box-shadow: 0px 5px 5px 5px var(--active-color);
 }
 
 .news-card__two {
