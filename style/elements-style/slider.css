@@ -156,3 +156,8 @@
         display: none;
     }
 }
+@media screen and (max-width: 500px){
+    .conteiner-info__text{
+        width: 150px;
+    }
+}
