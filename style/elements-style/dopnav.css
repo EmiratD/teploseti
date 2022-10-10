@@ -135,35 +135,16 @@
         margin: 25px;
     }
     .dopnav-list {
-        display: block;
+        justify-content: center;
+    }
+    .dopnav-list a{
+        min-width: 250px;
     }
     .dopnav-list__card {
         display: none;
     }
-    .icon-tick{
-        width: 350px;
-        display: flex;
-        gap: 20px;
-    }
-    .dopnav-list__card-bold {
-        width: 350px;
-        font-size: 18px;
-    }
-    .dopnav-list__card-text {
-        width: 270px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 550px){
-    .dopnav{
-        margin: 25px;
-    }
-    .dopnav-list {
-        display: block;
-    }
-    .dopnav-list__card {
-        display: none;
+    .dopnav-list__card-bold{
+        max-width: 250px;
     }
     .icon-tick{
         width: 250px;
